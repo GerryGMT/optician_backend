@@ -50,7 +50,7 @@ app.use(bodyParser.json());
 app.get("/", (req, res) => {
   res.json({
     message: "Server running sucessfully!",
-    creator: "Isaac Waweru",
+    creator: "Master",
     year: "2022",
     for: "Prestige",
   });

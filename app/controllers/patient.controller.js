@@ -11,6 +11,7 @@ exports.addPatient = (req, res, next) => {
     const patient = new Patient({
       date: req.body.date,
       fullname: req.body.fullname,
+      email: req.body.email,
       dob: req.body.dob,
       address: req.body.address,
       phone: req.body.phone,
